@@ -1,0 +1,51 @@
+body{
+h1{
+	color: red;
+	background-color: gray;
+	direction: rtl;
+	text-transform: capitalize;
+	text-shadow: 2px 2px blue;
+	text-decoration: line-through;
+}
+
+p{
+	text-align: justify;
+	text-indent: 100px;
+	letter-spacing: 3px;
+	line-height: 20px;
+	word-spacing: 10px;
+}
+a{
+	text-decoration: none;
+}
+<!--font css--->
+h2{
+	font-family: "Times New Roman";
+	font-size: 40px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/*link css*/
+a:link{
+	text-decoration: none;
+	color: red;
+	font-size: 30px;
+}
+a:hover
+{
+	color: blue;
+}
+a:visited{color: red;}
+a:active{color: yellow;}
+/*list*/
+ul{
+	list-style-image:url(image/icon.png);
+  }
+ul{list-style-type: circle;}
+ol{list-style-type: upper-alpha;}
+ul{list-style-type: ("image/icon.png");}
+
+}
+
+
